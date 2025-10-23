@@ -1,0 +1,32 @@
+/* === VIDEO FIX (Responsive + No Overflow) === */
+.hg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.hg video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid rgba(0, 180, 216, 0.3);
+  box-shadow: 0 0 20px rgba(0, 180, 216, 0.2);
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hg video:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 35px rgba(0, 180, 216, 0.4);
+}
+
+/* Keep text section balanced with video */
+.center {
+  margin-top: 100px;
+  text-align: left;
+  padding: 0 20px;
+}

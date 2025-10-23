@@ -1,0 +1,41 @@
+.contact {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+
+  }
+  .mgt{
+    margin-top: 100px;
+  }
+  .bggreen{
+    color:#32de84;
+  }
+  .align{
+    align-items: center;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-list li a {
+    color: #007bff;
+    text-decoration: none;
+  }

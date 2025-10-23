@@ -1,0 +1,48 @@
+.resume {
+  width: 100%;
+  max-width: 100vw; /* full width, no overflow */
+  padding: 40px 0;
+  overflow-x: hidden; /* prevents horizontal scroll */
+  background: linear-gradient(145deg, #0a0f1a, #111827); /* matches your global dark theme */
+  color: #e5e5e5;
+}
+
+.video {
+  width: 100%;
+  max-width: 100%; /* keep videos inside their column */
+  height: auto;
+  display: block;
+  border: 2px solid #00b4d8;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 180, 216, 0.25);
+  margin: 10px 0;
+}
+
+/* Fix for column spacing */
+.mg, .mgq {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Card fix */
+.card {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 180, 216, 0.3);
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 180, 216, 0.15);
+  color: #e5e5e5;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 25px rgba(0, 180, 216, 0.25);
+  transform: translateY(-3px);
+}
+
+/* Optional: spacing for sections */
+.mgt {
+  margin-top: 50px;
+}

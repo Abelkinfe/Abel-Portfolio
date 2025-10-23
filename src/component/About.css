@@ -1,0 +1,92 @@
+/* === ABOUT SECTION === */
+.about {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: linear-gradient(145deg, #0a0f1a, #111827); /* dark blue-black gradient */
+  color: #e5e5e5;
+  border: 2px solid #00b4d8; /* cyan accent border */
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 180, 216, 0.15);
+  transition: all 0.3s ease;
+}
+
+/* === HEADINGS === */
+.about h1 {
+  font-size: 2.2rem;
+  margin-top: 15px;
+  text-align: center;
+  color: #00b4d8; /* cyan title */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* === PARAGRAPH === */
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #c9d1d9; /* soft gray-white */
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* === STYLIZED BIRD SHAPE === */
+.bird {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #00b4d8; /* cyan body */
+  position: relative;
+  transform: rotate(45deg);
+  margin: 30px auto;
+  filter: drop-shadow(0 0 10px rgba(0, 180, 216, 0.5));
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.bird:before {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #00b4d8;
+  border-radius: 50%;
+  top: -50px;
+  left: -5px;
+  box-shadow: 0 0 15px rgba(0, 180, 216, 0.4);
+}
+
+.bird:hover {
+  transform: rotate(45deg) scale(1.05);
+  filter: drop-shadow(0 0 20px #00b4d8);
+}
+
+/* === STYLIZED DIAMOND SHAPE === */
+.diamond {
+  width: 100px;
+  height: 100px;
+  background-color: #00b4d8;
+  transform: rotate(45deg);
+  margin: 30px auto;
+  position: relative;
+  box-shadow: 0 0 15px rgba(0, 180, 216, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.diamond:before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: #00b4d8;
+  box-shadow: 0 0 15px rgba(0, 180, 216, 0.4);
+}
+
+.diamond:hover {
+  transform: rotate(45deg) scale(1.05);
+  box-shadow: 0 0 25px #00b4d8;
+}

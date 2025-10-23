@@ -1,0 +1,26 @@
+.bounce {
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    background-color: #3498db; /* Change the background color as desired */
+    border-radius: 50%; /* Creates a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Text color inside the circle */
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .bounce2 {
+    
+    width: 20px;
+    height: 20px;
+    background-color: #FF033E;
+    border-radius: 50%; /* Creates a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Text color inside the circle */
+    font-weight: bold;
+    font-size: 20px;
+  }
