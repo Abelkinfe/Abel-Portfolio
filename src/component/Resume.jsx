@@ -63,14 +63,12 @@ const Resume = () => {
 
 
           
-          <Col sm={4}> <video className='video' height="200" autoPlay loop muted playsInline>
-        <source src={abs} type="video/mp4" />
-       
-      </video>
-      <video className='video' height="200" autoPlay loop muted playsInline>
-        <source src={abs} type="video/mp4" />
-       
-      </video>
+          <Col sm={4}><video className='video' height="200" autoPlay loop muted playsInline>
+  <source src={`${import.meta.env.BASE_URL}abs.mp4`} type="video/mp4" />
+</video>
+<video className='video' height="200" autoPlay loop muted playsInline>
+  <source src={`${import.meta.env.BASE_URL}abs.mp4`} type="video/mp4" />
+</video>
           </Col>
 
             
