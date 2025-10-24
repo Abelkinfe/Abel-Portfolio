@@ -17,7 +17,7 @@ const Content = () => {
             transition={{ delay: 0.5, duration: 1.5, repeat: Infinity }}
             className='center'
           >
-            Hello there! Abel Kinfe,
+            Hello there! Abel kinfe,
           </motion.h1>
 
           <div className="myalign">
@@ -34,10 +34,9 @@ const Content = () => {
         {/* Video */}
         <Col sm={6}>
           <div className="hg">
-            <video width="640" height="600" autoPlay loop muted playsInline>
-              <source src="/abule.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+         <video width="640" height="360" autoPlay loop muted playsInline>
+  <source src="/abule.mp4" type="video/mp4" />
+</video>
           </div>
         </Col>
       </Row>
