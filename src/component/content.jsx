@@ -3,13 +3,13 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import './custom.css'
-import Card from 'react-bootstrap/Card';
-import abb from './abb.png'
+// import Card from 'react-bootstrap/Card';
+// import abb from './abb.png'
 
 import ReactTyped from "react-typed-component";
 import { motion } from "framer-motion"
-import Bounce from './bounce'
-import abule from './abel.mp4'
+// import Bounce from './bounce'
+// import abule from './abel.mp4'
 
 const Content = () => {
   return (
@@ -56,9 +56,9 @@ const Content = () => {
           <Col sm={6}>
             <div className=" hg">
               {/* <img src={abb} className='h' alt="" /> */}
-              <video width="640" height="600" autoPlay loop muted playsInline>
-                <source src={`${import.meta.env.BASE_URL}abel.mp4`} type="video/mp4" />
-              </video>
+             <video width="640" height="600" autoPlay loop muted playsInline>
+  <source src="/abule.mp4" type="video/mp4" />
+</video>
 
             </div>
 
