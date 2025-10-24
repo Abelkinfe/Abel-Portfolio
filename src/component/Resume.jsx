@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { easeInOut, motion } from "framer-motion"
-import abs from './abs.mp4'
+// import abs from './abs.mp4'
 const cardvaraint={
   ani:{
     scale:[1,1.1,1,1.1],

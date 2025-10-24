@@ -56,7 +56,7 @@ const Content = () => {
           <Col sm={6}>
             <div className=" hg">
               {/* <img src={abb} className='h' alt="" /> */}
-             <video width="640" height="600" autoPlay loop muted playsInline>
+            <video width="640" height="600" autoPlay loop muted playsInline>
   <source src="/abule.mp4" type="video/mp4" />
 </video>
 
