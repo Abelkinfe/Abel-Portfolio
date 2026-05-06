@@ -27,12 +27,12 @@ const Contact = () => {
       <motion.p  animate={{fontSize:50,  color:'#006400'}}>If you have any questions or would like to connect, feel free to reach out through the following channels:</motion.p>
       <ul className="contact-list">
         <li>location:ADAMA/ETHIOPIA</li>
-        {/* <li>Email: <a href="mailto:your.email@example.com">abelkinfe00@gmail.com</a></li> */}
-        {/* <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></li> */}
-        <li>GitHub: <a href="https://github.com/yourusername">github.com/Abelkinfe</a></li>
-        {/* <li>Call:+251943338781</li>
-        <li>Telegram:@bela6</li> */}
-        {/* Add more contact methods as needed */}
+         <li>Email: <a href="mailto:abelkinfe00@gmail.com">abelkinfe00@gmail.com</a></li> 
+         <li>LinkedIn: <a href="www.linkedin.com/in/abel-kinfe-146845327">linkedin.com/in/yourprofile</a></li>
+        <li>GitHub: <a href="https://github.com/AbelKinfe">github.com/Abelkinfe</a></li>
+         <li>Call:+251943338781</li>
+        <li>Telegram:@bela6</li> 
+        
       </ul>
     </div>
     </Col>
